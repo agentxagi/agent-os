@@ -1,0 +1,14 @@
+{
+  "name": "@agent-os/core",
+  "version": "0.1.0",
+  "description": "Open source framework for autonomous multi-agent teams",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": ["ai", "agents", "multi-agent", "orchestration", "autonomous", "openclaw", "paperclip"],
+  "repository": "github:agentxagi/agent-os",
+  "scripts": {
+    "sprint": "bash src/sprint/sprint-creator.sh",
+    "status": "bash src/coordinator/paperclip-coordinator.sh",
+    "circuit-breaker": "bash src/circuit-breaker/circuit-breaker-check.sh"
+  }
+}
