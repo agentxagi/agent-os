@@ -210,6 +210,7 @@ Agents pick up tasks from Paperclip via heartbeats, execute them, and update sta
 
 - **Customize sprint types** — Edit `src/sprint/sprint-creator.sh` to match your goals
 - **Add platforms** — Extend the content pipeline for LinkedIn, newsletters, etc.
+- **Set up the newsletter** — See [`docs/newsletter-integration.md`](newsletter-integration.md) for Ghost setup and weekly issue automation
 - **Adjust thresholds** — Tune circuit breaker values for your audience size
 - **Add agents** — Create new personas for specialized tasks
 - **Read the architecture doc** — `docs/architecture.md` for deeper understanding
